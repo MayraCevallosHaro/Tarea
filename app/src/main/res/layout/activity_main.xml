@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="412dp"
@@ -31,7 +32,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/txtNombre"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -150,6 +151,7 @@
         android:layout_marginTop="386dp"
         android:layout_marginEnd="108dp"
         android:backgroundTint="#0B2A43"
+        android:onClick="btEnviar"
         android:text="Enviar"
         android:textStyle="bold" />
 
